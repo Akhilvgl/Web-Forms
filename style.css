@@ -6,7 +6,7 @@ body, h1, label, input, button {
 
 /* Apply some basic styling to the form container */
 body {
-    background: rgb(8, 189, 255);
+    background: rgb(255,165,0);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body {
 .container {
     max-width: 450px;
     padding: 50px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgb(0,0,128);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -26,7 +26,7 @@ body {
 h1 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #333;
+    color: #860111;
 }
 
 /* Style labels and form elements */
@@ -38,7 +38,7 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333;
+    color: #d2691e;
 }
 
 input[type="text"],
@@ -60,8 +60,8 @@ input[type="password"]:focus {
 }
 
 button {
-    background-color: rgb(8, 189, 255);
-    color: #fff;
+    background-color: rgb(240,255,240);
+    color: #87ceeb ;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -72,5 +72,5 @@ button {
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #560319;
 }
